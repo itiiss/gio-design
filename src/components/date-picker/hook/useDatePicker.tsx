@@ -39,14 +39,10 @@ const useDatePicker = (props: DatePickerProps) => {
     setLocalValue(values);
   };
 
-  const debounceTimeChange = debounce((e: string): void => {
+  const debounceTimeChange = (e: string): void => {
     const values = moment(e, props.format);
-    if (values.isValid()) {
-      setLocalValue(values);
-    } else {
-      setLocalValue(localValue);
-    }
-  }, 1000);
+    setLocalValue(values.isValid() ? values : localValue);
+  };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>): void => {
     // e.persist();

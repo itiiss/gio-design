@@ -9,7 +9,7 @@ initialize {
     "children": Array [
       Object {
         "attribs": Object {
-          "class": "gio-modal-mask fade-appear",
+          "class": "gio-modal-mask",
         },
         "children": Array [],
         "name": "div",
@@ -24,7 +24,7 @@ initialize {
           "children": Array [
             Object {
               "attribs": Object {
-                "class": "gio-modal gio-modal--small zoom-appear",
+                "class": "gio-modal gio-modal--small",
                 "role": "document",
               },
               "children": Array [
@@ -9303,7 +9303,7 @@ initialize {
         "children": Array [
           Object {
             "attribs": Object {
-              "class": "gio-modal gio-modal--small zoom-appear",
+              "class": "gio-modal gio-modal--small",
               "role": "document",
             },
             "children": Array [
@@ -18549,7 +18549,7 @@ initialize {
         "parent": [Circular],
         "prev": Object {
           "attribs": Object {
-            "class": "gio-modal-mask fade-appear",
+            "class": "gio-modal-mask",
           },
           "children": Array [],
           "name": "div",
@@ -18627,7 +18627,7 @@ initialize {
     "children": Array [
       Object {
         "attribs": Object {
-          "class": "gio-modal-mask fade-appear",
+          "class": "gio-modal-mask",
         },
         "children": Array [],
         "name": "div",
@@ -18642,7 +18642,7 @@ initialize {
           "children": Array [
             Object {
               "attribs": Object {
-                "class": "gio-modal gio-modal--small zoom-appear",
+                "class": "gio-modal gio-modal--small",
                 "role": "document",
               },
               "children": Array [
@@ -31413,7 +31413,7 @@ initialize {
         "children": Array [
           Object {
             "attribs": Object {
-              "class": "gio-modal gio-modal--small zoom-appear",
+              "class": "gio-modal gio-modal--small",
               "role": "document",
             },
             "children": Array [
@@ -44151,7 +44151,7 @@ initialize {
         "parent": [Circular],
         "prev": Object {
           "attribs": Object {
-            "class": "gio-modal-mask fade-appear",
+            "class": "gio-modal-mask",
           },
           "children": Array [],
           "name": "div",
